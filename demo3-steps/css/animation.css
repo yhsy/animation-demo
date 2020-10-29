@@ -1,0 +1,46 @@
+html,
+body,
+ul,
+p,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #000;
+}
+ul {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+.m-animation {
+  padding: 30px;
+}
+.m-animation li {
+  margin-bottom: 30px;
+}
+.m-animation h2 {
+  font-size: 20px;
+  line-height: 50px;
+}
+.box {
+  width: 720px;
+  height: 720px;
+}
+.box1 {
+  background: url(../img/bg-start2-bak.png) no-repeat;
+  animation: move 1s steps(10) infinite;
+}
+@keyframes move {
+  100% {
+    background-position-y: -7200px;
+  }
+}
