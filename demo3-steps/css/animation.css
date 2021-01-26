@@ -33,14 +33,14 @@ img {
 }
 .box {
   width: 720px;
-  height: 720px;
+  height: 580px;
 }
 .box1 {
-  background: url(../img/bg-start2-bak.png) no-repeat;
-  animation: move 1s steps(10) infinite;
+  background: url(../img/yellow.png) no-repeat;
+  animation: move 5s steps(25) infinite;
 }
 @keyframes move {
   100% {
-    background-position-y: -7200px;
+    background-position-y: -14500px;
   }
 }
